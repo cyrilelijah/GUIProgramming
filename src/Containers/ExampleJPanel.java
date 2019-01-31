@@ -18,6 +18,7 @@ public class ExampleJPanel extends JFrame{
     private JPanel panel;
     private JButton button;
     public ExampleJPanel() {
+        setSize(400, 400);
         //Jpanel
         panel = new JPanel(null);
         panel.setBackground(Color.red);
@@ -26,10 +27,7 @@ public class ExampleJPanel extends JFrame{
         //Jbutton
         button = new JButton("Click me");
         button.setBounds(50, 50, 200, 50);
-        panel.add(button);//adding Jbutton into Jpanel
-        
-        setSize(400, 400);
-        
+        panel.add(button);//adding Jbutton into Jpanel               
     }
     
     public static void main(String[] args) {
