@@ -29,11 +29,11 @@ public class ExampleJPanel extends JFrame{
         panel.add(button);//adding Jbutton into Jpanel
         
         setSize(400, 400);
-        setVisible(true);
+        
     }
     
     public static void main(String[] args) {
-        new ExampleJPanel();
+        new ExampleJPanel().setVisible(true);
     }
     
 }
