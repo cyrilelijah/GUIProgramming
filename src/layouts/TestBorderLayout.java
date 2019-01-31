@@ -19,7 +19,6 @@ public class TestBorderLayout extends JFrame{
     
     public TestBorderLayout() {
         setSize(600, 600);
-        setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 //        setLayout(new BorderLayout(5,5));
@@ -40,6 +39,6 @@ public class TestBorderLayout extends JFrame{
     }
     
     public static void main(String[] args) {
-        new TestBorderLayout();
+        new TestBorderLayout().setVisible(true);
     }
 }
